@@ -1,0 +1,124 @@
+.header {
+  background-color: black;
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+}
+.genToken {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+.headerText {
+  padding-left: 2vh;
+  color: white;
+  padding-top: 1vh;
+  font-size: 3vh;
+  letter-spacing: 1vh;
+}
+.login {
+  color: white;
+  padding-top: 3vh;
+  font-size: 2vh;
+  color: yellow;
+}
+.signup {
+  color: white;
+  padding-top: 3vh;
+  font-size: 2vh;
+  color: yellow;
+}
+.profile {
+  width: 7vh;
+  height: 7vh;
+  background-image: url("profile1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5vh 5vh;
+}
+.name {
+  color: white;
+  padding-top: 2.5vh;
+}
+.profileDiv {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr;
+  padding-top: 1.5vh;
+}
+.logout {
+  color: white;
+  padding-top: 2.3vh;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    background-color: black;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+  }
+  .headerText {
+    padding-left: 1vh;
+    color: white;
+    padding-top: 0.5vh;
+    font-size: 3vh;
+    letter-spacing: 0.8vh;
+  }
+  .login {
+    color: white;
+    padding-top: 2vh;
+    font-size: 2vh;
+    color: yellow;
+  }
+  .signup {
+    color: white;
+    padding-top: 2vh;
+    font-size: 2vh;
+    color: yellow;
+  }
+  .profileDiv {
+    display: grid;
+    grid-template-columns: 2fr 7fr 3fr;
+    padding-top: 1vh;
+    font-size: 2vh;
+  }
+  .name {
+    color: white;
+    padding-top: 2vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    background-color: black;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+  }
+  .headerText {
+    padding-left: 1vh;
+    color: white;
+    padding-top: 0vh;
+    font-size: 2vh;
+    letter-spacing: 0.6vh;
+  }
+  .login {
+    color: white;
+    padding-top: 2.5vh;
+    font-size: 2vh;
+    color: yellow;
+  }
+  .signup {
+    color: white;
+    padding-top: 2.5vh;
+    font-size: 2vh;
+    color: yellow;
+  }
+  .profileDiv {
+    display: grid;
+    grid-template-columns: 3fr 6fr 5fr;
+    padding-top: 1vh;
+  }
+  .name {
+    color: white;
+    padding-top: 1vh;
+    font-size: 2vh;
+  }
+}

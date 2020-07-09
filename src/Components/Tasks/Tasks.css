@@ -1,0 +1,141 @@
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  margin: 1vw;
+  border-radius: 2vh;
+  /* padding: 1vw; */
+}
+.taskData {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr;
+  background-color: orange;
+  padding-left: 1vw;
+  /* border: 1px solid black; */
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
+}
+.titleName {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 0.5vh;
+}
+.taskList {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 0.5vh;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topLine {
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.dropDown {
+  width: 13vh;
+  height: 3vh;
+  background-color: whitesmoke;
+  font-size: 1.8vh;
+  border-radius: 0.6vh;
+  box-shadow: 5px 2px 8px #888888;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .titleContainer {
+  background-color: orange;
+} */
+.priority {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.priorityContainer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 1vh;
+}
+.titleData {
+  font-size: 20px;
+  padding-left: 2vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  color: white;
+}
+.priorityInfo {
+  background-color: rgb(112, 112, 255);
+  overflow-wrap: break-word;
+}
+.removeBtnContainer {
+  padding: 1vh;
+  padding-top: 1.5vh;
+  padding-left: 3.5vh;
+}
+.removeButton {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 3vh;
+  width: 10vh;
+}
+.noTask {
+  text-align: center;
+  font-size: 3vh;
+  color: rgb(175, 166, 166);
+}
+@media screen and (max-width: 1200px) {
+  .titleName {
+    padding-left: 1vh;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .priority {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .titleData {
+    font-size: 20px;
+    padding-left: 2vh;
+    color: white;
+  }
+  .removeBtnContainer {
+    /* padding: 1vh; */
+    padding-top: 1.8vh;
+    padding-left: 1vh;
+  }
+  .removeButton {
+    height: 3vh;
+    width: 8vh;
+    font-size: 1.6vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .titleName {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .priority {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .titleData {
+    font-size: 12px;
+    padding-left: 2vh;
+    color: white;
+  }
+  .removeBtnContainer {
+    padding: 1vh;
+    padding-top: 1vh;
+  }
+  .removeButton {
+    height: 4vh;
+    width: 10vh;
+    font-size: 2vh;
+  }
+  .priorityContainer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+}

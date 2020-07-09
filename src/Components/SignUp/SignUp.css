@@ -1,0 +1,40 @@
+.wrapperSignup {
+  padding-left: 120vh;
+  padding-top: 18vh;
+}
+.btn1 {
+  background-color: blue;
+  width: 13vh;
+  height: 4vh;
+  border: none;
+}
+.btn2 {
+  background-color: white;
+  border: none;
+  font: 2vh;
+}
+.SignUpinputs {
+  width: 35vh;
+  height: 3.5vh;
+  font-size: 2vh;
+  margin: 2vh;
+}
+.buttoninput {
+  margin: 2vh;
+  background-color: rgb(114, 114, 230);
+  color: white;
+  font-size: 2vh;
+  border: none;
+}
+.loginHead {
+  text-align: center;
+}
+.SignUpOuterPart {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: fit-content;
+  height: 60vh;
+  background-color: white;
+  border-radius: 2vh;
+}

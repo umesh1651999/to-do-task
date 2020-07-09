@@ -1,0 +1,13 @@
+/* .addButton {
+  position: absolute;
+  bottom: 3vh;
+  right: 3vh;
+} */
+
+.addBtnImg {
+  position: fixed;
+  bottom: 3vh;
+  right: 3vh;
+  width: 8vh;
+  height: 8vh;
+}

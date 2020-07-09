@@ -1,0 +1,33 @@
+.wrappers {
+  padding-left: 100vh;
+  padding-top: 20vh;
+}
+.button {
+  background-color: blue;
+  width: 13vh;
+  height: 4vh;
+  border: none;
+}
+.inputs {
+  width: 35vh;
+  height: 3.5vh;
+  font-size: 2vh;
+  margin: 2vh;
+}
+.buttoninput {
+  margin: 2vh;
+  color: white;
+  font-size: 2vh;
+}
+.loginHead {
+  text-align: center;
+}
+.outerPart {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: fit-content;
+  height: 35vh;
+  background-color: white;
+  border-radius: 1.5vh;
+}

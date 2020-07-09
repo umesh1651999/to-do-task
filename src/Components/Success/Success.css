@@ -1,0 +1,12 @@
+.successContainer {
+  position: fixed;
+  bottom: 3vh;
+  left: 3vh;
+  width: 20vh;
+  height: 10vh;
+  background-color: black;
+  color: white;
+}
+/* .successText {
+
+} */

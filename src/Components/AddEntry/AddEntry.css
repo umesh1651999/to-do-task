@@ -1,0 +1,121 @@
+.wrapper {
+  width: 100%;
+  padding-bottom: 5vh;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 5vh;
+  border-top-right-radius: 5vh;
+  background-color: moccasin;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+}
+.addEntry {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+  /* border: 0.3vh solid black; */
+  /* width: 100%; */
+  padding: 5vh;
+}
+.input {
+  /* border: 0.3vh solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.titleContainer,
+.todoContainer,
+.radioContainer {
+  padding-left: 5vh;
+}
+.radioContainer {
+  display: flex;
+  flex-direction: row;
+}
+.title,
+.todo {
+  width: 20vh;
+  height: 3vh;
+  /* padding-left: 5vh; */
+}
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.addBtn {
+  background-color: rgb(94, 94, 238);
+  width: 30vh;
+  height: 3vh;
+  color: white;
+  border: none;
+  /* position: absolute;
+  bottom: 0; */
+}
+.removeIcon {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  position: absolute;
+  right: 3vh;
+  top: 2vh;
+}
+@media screen and (max-width: 1200px) {
+  .addEntry {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    /* border: 0.3vh solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .addBtn {
+    background-color: rgb(94, 94, 238);
+    width: 20vh;
+    height: 4vh;
+    color: white;
+    border: none;
+  }
+  .btnWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .titleContainer,
+  .todoContainer,
+  .radioContainer {
+    padding-left: 2vh;
+  }
+  label {
+    font-size: 1.5vh;
+  }
+  .addBtn {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .addEntry {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    /* border: 0.3vh solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .addBtn {
+    background-color: rgb(94, 94, 238);
+    width: 20vh;
+    height: 4vh;
+    color: white;
+    border: none;
+  }
+  .btnWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .titleContainer,
+  .todoContainer,
+  .radioContainer {
+    padding-left: 2vh;
+  }
+}
